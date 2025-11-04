@@ -1,7 +1,6 @@
 [book]
-authors = ["Michael Currin"]
+authors = ["Sergio Miracco", "Markus Grimm"]
 language = "en"
-multilingual = false
+multilingual = true
 src = "src"
-title = "mdBook Quickstart"
-description = "Demo site for mdBook Quickstart repo"
+title = "in:control user documentation"
