@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> mdBook Quickstart</a></li><li class="chapter-item expanded "><a href="chapter-1.html"><strong aria-hidden="true">2.</strong> Chapter 1</a></li><li class="chapter-item expanded "><a href="chapter-2.html"><strong aria-hidden="true">3.</strong> Chapter 2</a></li><li class="chapter-item expanded "><a href="foo/index.html"><strong aria-hidden="true">4.</strong> Foo</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="foo/fizz.html"><strong aria-hidden="true">4.1.</strong> Fizz</a></li><li class="chapter-item expanded "><a href="foo/buzz.html"><strong aria-hidden="true">4.2.</strong> Buzz</a></li></ol></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">User Guide</li><li class="chapter-item expanded "><a href="devices.html"><strong aria-hidden="true">1.</strong> Devices</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hub.html"><strong aria-hidden="true">1.1.</strong> Hub</a></li></ol></li><li class="chapter-item expanded "><a href="configurator.html"><strong aria-hidden="true">2.</strong> Configurator</a></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split("#")[0].split("?")[0];
         if (current_page.endsWith("/")) {
