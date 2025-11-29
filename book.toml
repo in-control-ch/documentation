@@ -1,6 +1,5 @@
 [book]
-authors = ["Sergio Miracco", "Markus Grimm"]
+authors = ["Sergio Miracco", "Markus Grimm", "Simon Meier"]
 language = "en"
-multilingual = true
 src = "src"
 title = "in:control user documentation"

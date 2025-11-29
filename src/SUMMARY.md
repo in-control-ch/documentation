@@ -2,8 +2,12 @@
 
 [Introduction](../README.md)
 
-# User Guide
+# Devices
 
-- [Devices](devices.md)
-  - [Hub](./hub.md)
+- [Hub](./hub.md)
+- [Buttons](./buttons.md)
+- [Mouse](./mouse.md)
+
+# Software
+
 - [Configurator](./configurator.md)

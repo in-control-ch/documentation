@@ -1,6 +1,0 @@
-# Devices
-
-- [[hub]]
-- [[buttons]]
-- [[mouse]]
-
