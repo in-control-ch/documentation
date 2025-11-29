@@ -1,7 +1,7 @@
 
 # Mouse
 
-***Fette Schrift***
+
 
 ---
 
